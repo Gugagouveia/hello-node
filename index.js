@@ -4,7 +4,7 @@ const path = require("path");
 const app = express();
 const PORT = 80;
 
-app.get("/", (req, res) => {
+app.get("/gustavo-gouveia", (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
