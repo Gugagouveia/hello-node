@@ -2,159 +2,60 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gustavo Gouveia | Desenvolvedor de Software</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, #0f172a, #020617);
-      color: #e5e7eb;
-    }
-
-    header {
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      color: #38bdf8;
-      margin-bottom: 10px;
-    }
-
-    header h2 {
-      font-weight: 400;
-      color: #94a3b8;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    h3 {
-      color: #38bdf8;
-      border-bottom: 2px solid #1e293b;
-      padding-bottom: 5px;
-      margin-bottom: 20px;
-    }
-
-    p, li {
-      line-height: 1.6;
-      color: #cbd5f5;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: #020617;
-      border: 1px solid #1e293b;
-      border-radius: 12px;
-      padding: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 40px 20px;
-      border-top: 1px solid #1e293b;
-      margin-top: 60px;
-    }
-
-    footer a {
-      color: #38bdf8;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <header>
     <h1>Gustavo Gouveia</h1>
-    <h2>Desenvolvedor de Software Júnior</h2>
-    <p>Recife, Pernambuco, Brasil</p>
+    <p>Desenvolvedor de Software Júnior</p>
   </header>
 
-  <section>
-    <h3>Resumo</h3>
-    <p>
-      Sou Desenvolvedor de Software na Aramis, criando aplicações web full-stack
-      com React.js no front-end e Node.js no back-end. Trabalho em times ágeis
-      utilizando Scrum, sempre focado em qualidade, testes e escalabilidade.
-    </p>
-  </section>
+  <section class="container">
+    <div class="card">
+      <h2>Resumo</h2>
+      <p>
+        Desenvolvedor de Software na Aramis, atuando com aplicações web full-stack
+        utilizando React.js no front-end e Node.js no back-end. Trabalho com metodologias
+        ágeis (Scrum), foco em qualidade, testes unitários e performance.
+      </p>
+    </div>
 
-  <section>
-    <h3>Principais Competências</h3>
-    <ul>
-      <li>Modelagem e análise de requisitos</li>
-      <li>Projeto de arquitetura de sistemas</li>
-      <li>Desenvolvimento full-stack</li>
-      <li>Testes unitários com Jest</li>
-    </ul>
-  </section>
+    <div class="card">
+      <h2>Experiência</h2>
+      <h3>Aramis — Desenvolvedor de Software Júnior</h3>
+      <span>Out 2024 - Atual</span>
+      <ul>
+        <li>React.js e TypeScript para interfaces performáticas</li>
+        <li>APIs REST com Node.js e Express</li>
+        <li>Testes unitários com Jest</li>
+        <li>Atuação em times ágeis (Scrum)</li>
+      </ul>
 
-  <section>
-    <h3>Experiência</h3>
-    <div class="cards">
-      <div class="card">
-        <h4>Aramis</h4>
-        <p><strong>Desenvolvedor de Software Júnior</strong></p>
-        <p>Out 2024 - Presente</p>
-        <ul>
-          <li>Frontend com React.js e TypeScript</li>
-          <li>APIs com Node.js e Express</li>
-          <li>Testes unitários com Jest</li>
-          <li>Scrum e times ágeis</li>
-        </ul>
-      </div>
+      <h3>Devbox — Estagiário</h3>
+      <span>Ago 2023 - Jan 2024</span>
+      <p>Desenvolvimento de APIs REST utilizando JavaScript e Node.js.</p>
+    </div>
 
-      <div class="card">
-        <h4>Devbox</h4>
-        <p><strong>Estagiário em Desenvolvimento</strong></p>
-        <p>Ago 2023 - Jan 2024</p>
-        <p>Desenvolvimento de APIs REST com JavaScript e Node.js.</p>
-      </div>
+    <div class="card">
+      <h2>Formação</h2>
+      <p><strong>MBA Engenharia de Software</strong> — UNIFAFIRE (2025 - 2026)</p>
+      <p><strong>Análise e Desenvolvimento de Sistemas</strong> — Senac (2022 - 2024)</p>
+    </div>
+
+    <div class="card">
+      <h2>Contato</h2>
+      <p>📞 (81) 98650-3252</p>
+      <p>📧 gustavo_agj@outlook.com</p>
+      <p>
+        🔗 <a href="https://www.linkedin.com/in/gustavo-gouveia" target="_blank">LinkedIn</a><br />
+        💻 <a href="https://github.com/Gugagouveia" target="_blank">GitHub</a>
+      </p>
     </div>
   </section>
 
-  <section>
-    <h3>Formação Acadêmica</h3>
-    <ul>
-      <li>
-        <strong>MBA em Engenharia de Software</strong> — UNIFAFIRE
-        (2025 - 2026)
-      </li>
-      <li>
-        <strong>Análise e Desenvolvimento de Sistemas</strong> — Senac
-        (2022 - 2024)
-      </li>
-    </ul>
-  </section>
-
   <footer>
-    <p>📞 (81) 98650-3252</p>
-    <p>📧 gustavo_agj@outlook.com</p>
-    <p>
-      <a href="https://www.linkedin.com/in/gustavo-gouveia" target="_blank">LinkedIn</a>
-      |
-      <a href="https://github.com/Gugagouveia" target="_blank">GitHub</a>
-    </p>
+    <p>© 2025 Gustavo Gouveia</p>
   </footer>
 </body>
 </html>

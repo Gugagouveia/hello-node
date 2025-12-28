@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #38bdf8;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #94a3b8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #020617;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.15);
+}
+
+.card h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card span {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 6px;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
